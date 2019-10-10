@@ -46,7 +46,7 @@ def unSmoosh(smooshed_word, word_list, smooshed_word_list)
 end
 
 def start
-  p "Type 'wsm' to convert to a word morse code or 'smw' to covert smooshed morse code to possible words"
+  p "Type 'wsm' to convert to a word to smooshed morse code or 'smw' to covert smooshed morse code to possible words"
   print 'Choice: '
   user_choice = gets.chomp
   p "-" * 25
